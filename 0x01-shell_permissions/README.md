@@ -9,3 +9,4 @@ chmod 755 hello: Add execution permission to the owner, the group owner and the 
 chmod 007 hello: Add no permission for owner, the group owner and all permissions the other users, to the file hello;
 chmod 753 hello: Set mode of file to a given sequence;
 chmod --reference=hello olleh: Set the mode of the file hello the same as olleh’s mode;
+chmod ugo+X ./* : Add execute permission to all subdirectories of the cd for the owner, the group owner and all other users';
