@@ -1,1 +1,21 @@
-pwd - To print current working directory
+pwd : To print current working directory
+ls : List contents of Current Directory
+cd : Changes the wd to the user’s home directory
+ls -l : Display cwd contents, including hidden files in a long format
+ls -l -a : Display cwd contents, including hidden files and users/group ID in a long format
+mkdir /tmp/my_first_directory : Create a directory in a directory
+mv /tmp/betty /tmp/my_first_directory/betty : Move file from old directory to new directory
+rm /tmp/my_first_directory/betty : Delete a file from a directory
+rm -r /tmp/my_first_directory : Delete a directory from a directory
+cd - : Change to previous directory
+ls -al. .. /boot : List all files
+file /tmp/iamfile : Print file type
+ln -s /bin/ls --ls-- : Add symbolic link
+cp -u *.html ../ : Copy all HTML files
+mv [A-Z]* /tmp/u : Move all files with uppercase letter to directory
+rm *~ : Remove all files with tilde {~}
+mkdir -p welcome/to/school : Create directories in current directory
+ls -pam : Lists all the files and directories of the cd, separated by commas (,)
+0 string SCHOOL School data : Create a magic file
+!:mime School : Create a magic file
+file -c -m school.mgc : To compile
