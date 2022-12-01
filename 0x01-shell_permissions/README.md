@@ -1,0 +1,1 @@
+su betty: Switch current user to the user betty;
