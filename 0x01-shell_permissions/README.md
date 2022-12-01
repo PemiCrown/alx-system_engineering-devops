@@ -6,3 +6,4 @@ touch hello: Create an empty file called hello;
 chmod 744 hello: Add execute permission to the owner of the file hello;
 chmod 754 hello: Add execute permission to the owner and grp owner and read only for other users of the file hello;
 chmod 755 hello: Add execution permission to the owner, the group owner and the other users, to the file hello;
+chmod 007 hello: Add no permission for owner, the group owner and all permissions the other users, to the file hello;
