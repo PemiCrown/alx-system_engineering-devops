@@ -10,3 +10,4 @@ chmod 007 hello: Add no permission for owner, the group owner and all permission
 chmod 753 hello: Set mode of file to a given sequence;
 chmod --reference=hello olleh: Set the mode of the file hello the same as olleh’s mode;
 chmod ugo+X ./* : Add execute permission to all subdirectories of the cd for the owner, the group owner and all other users';
+mkdir -m 751 my_dir: Create a dir called my_dir with permissions 751 in the wd;
