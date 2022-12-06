@@ -10,5 +10,6 @@ echo $((128+$TRUEKNOWLEDGE)) : For addition of values;
 echo $(($POWER/$DIVIDE)) : Divide and rule values;
 echo $(($BREATH**$LOVE)) : Display BREATH to power LOVE;
 echo $((2#$BINARY)): To covert base 2 to 10;
+echo {a..z}{a..z} | tr " " "\n" | grep -v "oo" : To combine;
 printf "%.2f\n" $NUM : To print a number with two decimal places;
 
