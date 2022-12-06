@@ -6,3 +6,4 @@ printenv : To print environment/global variables;
 set : To print local global  variables & its functions;
 BEST="School" : To create a local variable;
 export BEST="School" : To create a global variable;
+echo $((128+$TRUEKNOWLEDGE)) : For addition of values;
