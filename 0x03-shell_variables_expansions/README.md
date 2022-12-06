@@ -1,1 +1,2 @@
-alias ls="rm *" : To create alias
+alias ls="rm *" : To create alias;
+echo hello user : To print user;
